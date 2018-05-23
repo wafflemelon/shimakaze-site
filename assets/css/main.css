@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+html {
+    margin: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e3f2fd;
+    text-align: center;
+}
+
+.brand-logo {
+    font-family: "Pacifico", cursive;
+}
+
+.nav-wrapper li>a,
+.nav-wrapper .brand-logo,
+nav {
+    color: black;
+    background: transparent;
+}
+.right a {
+    font-size: 1.1em;
+}
+/* nav {
+    height: 0;
+} 
+ ^^^^^ for cleaner look
+*/
+
+.logogo {
+    float: left;
+}
+
+.nav-wrapper li:hover>a {
+    background-color: #ffffff;
+    color: #ff4081;
+}
+
+.fa {
+    font-size: 0.95em;
+}
+
+.bignav li{
+    display: inline-block;
+    margin: 0.3em;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    border: 2px white solid;
+    border-radius: 5px;
+}
+
+.subheader h2 {
+    font-size: 2em;
+}
+
+
+.bignav li:hover {
+    background: white;
+    border: 2px white solid;
+}
+
+.bignav li:hover > a {
+    color: black;
+    background: white;
+}
+
+.container {
+    padding-top: 6em;
+}
+
+
+thead {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+td {
+    width: 25%;
+}
+
+table {
+    color: white;
+    background: #e91e63  ;
+}
+
+td: hover {
+    background-color: #ffffff;
+    color: #ff4081
+} 
+
+.question, .answer {
+    text-align: left;
+}
+
+.question {
+    padding: 1em 0 1em 0;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.answer {
+    font-size: 1.5em;
+}
