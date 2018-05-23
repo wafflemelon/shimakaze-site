@@ -57,593 +57,689 @@
                 <td>Description</td>
             </tr>
         </thead>
-            <tr>
-                <td>editrole</td>
-                <td>[type] [value] [name]</a>
-                </td>
-                <td>Edits a role with the specified name</td>
-            </tr>
-
-            <tr>
-                <td>ban</td>
-                <td>[user] [reason]</a>
-                </td>
-                <td>Bans a user (if you have the permission).</td>
-            </tr>
-
-            <tr>
-                <td>translate</td>
-                <td>[lang_to_trans] [msg]</a>
-                </td>
-                <td>Translates words from one language to another. Do `tux help`translate for more information. Usage: erio translate
-                    <language you wanna translate>`
-                        <words>` - Translate words from one language to another. Full language names must be used. The original
-                            language will be assumed automatically.</td>
-            </tr>
-
-            <tr>
-                <td>creds</td>
-                <td>
-                    </a>
-                </td>
-                <td>None</td>
-            </tr>
-
-            <tr>
-                <td>deleterole</td>
-                <td>[name]</a>
-                </td>
-                <td>Deletes the role with the specified name</td>
-            </tr>
-
-            <tr>
-                <td>renamerole</td>
-                <td>[name] [newname]</a>
-                </td>
-                <td>Renames a role with the specified name, be sure to put double quotes (") around the name and the new name</td>
-            </tr>
-
-            <tr>
-                <td>plist</td>
-                <td>
-                    </a>
-                </td>
-                <td>List all the personal prefixes syntax: erio plsit </td>
-            </tr>
-
-            <tr>
-                <td>restart</td>
-                <td>
-                    </a>
-                </td>
-                <td>Restart the bot. Bot owner only.</td>
-            </tr>
-
-            <tr>
-                <td>old_help</td>
-                <td>[commands]</a>
-                </td>
-                <td>Shows this message.</td>
-            </tr>
-
-            <tr>
-                <td>addd</td>
-                <td>[user]</a>
-                </td>
-                <td>Dank memes</td>
-            </tr>
-
-            <tr>
-                <td>halt</td>
-                <td>
-                    </a>
-                </td>
-                <td>Halt the bot. Bot owner only.</td>
-            </tr>
-
-            <tr>
-                <td>hackban</td>
-                <td>[user_id] [reason]</a>
-                </td>
-                <td>Bans a user outside of the server.</td>
-            </tr>
-
-            <tr>
-                <td>removereactions</td>
-                <td>[id]</a>
-                </td>
-                <td>Clear reactions from a message</td>
-            </tr>
-
-            <tr>
-                <td>tp</td>
-                <td>[mem]</a>
-                </td>
-                <td>Gonna make Kotoha love me</td>
-            </tr>
-
-            <tr>
-                <td>invite</td>
-                <td>
-                    </a>
-                </td>
-                <td>Generate an invite link for this bot.</td>
-            </tr>
-
-            <tr>
-                <td>rmd</td>
-                <td>[user]</a>
-                </td>
-                <td>Dank memes</td>
-            </tr>
-
-            <tr>
-                <td>warn</td>
-                <td>[user] [reason]</a>
-                </td>
-                <td>Warn the user syntax: erio warn (user or user id)</td>
-            </tr>
-
-            <tr>
-                <td>owner</td>
-                <td>[action] [user]</a>
-                </td>
-                <td>Add an Owner required args are {action} which includes `add`, `remove`, `list` {user} only required for `add`
-                    and `remove`.</td>
-            </tr>
-
-            <tr>
-                <td>gc</td>
-                <td>[year] [month] [day]</a>
-                </td>
-                <td>Module for Garfield Comics usage: erio garfield (to get random comic) erio garfield [year] [month] [day]
-                    (for specific day)</td>
-            </tr>
-
-            <tr>
-                <td>softban</td>
-                <td>[user] [reason]</a>
-                </td>
-                <td>Softbans a user (if you have the permission).</td>
-            </tr>
-
-            <tr>
-                <td>rename</td>
-                <td>[username]</a>
-                </td>
-                <td>Change the bot's username. Bot owner only.
-                </td>
-            </tr>
-
-            <tr>
-                <td>guildinfo</td>
-                <td>
-                    </a>
-                </td>
-                <td>Display information about the current guild, such as owner, region, emojis, and roles.</td>
-            </tr>
-
-            <tr>
-                <td>warnlog</td>
-                <td>[user]</a>
-                </td>
-                <td>Get the warnings for a user syntax: erio warnlog (user or userid)</td>
-            </tr>
-
-            <tr>
-                <td>banlist</td>
-                <td>
-                    </a>
-                </td>
-                <td>Displays the server's banlist</td>
-            </tr>
-
-            <tr>
-                <td>channelinfo</td>
-                <td>[channel]</a>
-                </td>
-                <td>Display information about a text channel.</td>
-            </tr>
-
-            <tr>
-                <td>jisho</td>
-                <td>[query]</a>
-                </td>
-                <td>Translate a word into Japanese. Example usage: erio jisho kawaii</td>
-            </tr>
-
-            <tr>
-                <td>urbandictionary</td>
-                <td>[msg]</a>
-                </td>
-                <td>Pull data from Urban Dictionary. Use ema help ud for more information. Usage: erio ud
-                    <term> - Search for a term on Urban Dictionary. You can pick a specific result with erio
-                        <term> |
-                            <result>. If no result is specified, the first result will be used.</td>
-            </tr>
-
-            <tr>
-                <td>nick</td>
-                <td>[nickname]</a>
-                </td>
-                <td>Change the bot's nickname. Bot owner only.
-                </td>
-            </tr>
-
-            <tr>
-                <td>system</td>
-                <td>[command]</a>
-                </td>
-                <td>Run system commands.</td>
-            </tr>
-
-            <tr>
-                <td>eval</td>
-                <td>[code]</a>
-                </td>
-                <td>Evaluates Python code</td>
-            </tr>
-
-            <tr>
-                <td>vchannelinfo</td>
-                <td>[channel]</a>
-                </td>
-                <td>Display information about a voice channel.</td>
-            </tr>
-
-            <tr>
-                <td>help</td>
-                <td>[cmds]</a>
-                </td>
-                <td>help command for the bot</td>
-            </tr>
-
-            <tr>
-                <td>pingmods</td>
-                <td>[reason]</a>
-                </td>
-                <td>Ping an online staff member</td>
-            </tr>
-
-            <tr>
-                <td>set</td>
-                <td>[thing] [value]</a>
-                </td>
-                <td>Here you can set join messages, leave messages, join role and join/leave message channel. * thing: it can
-                    be `greet-message`, `leave-message`, `join-role`, `join-leave-channel`, `modlog-channel`, `prefix`, `deletelog-channel`,
-                    `greet-timer`, `mute-role`. * value: for the greet / leave messages the value will be the message example:
-                    Hello there! %user%. Welcome to %guild% here `%user%` and `%guild%` are the new user mention and name
-                    of the guild respectively. for join role, just type in the exact role name (role names are case sensitive),
-                    same goes for the mute role and join-leave-channel. you can set greet-message/leave-message auto delete
-                    timer like this: erio set greet-timer 10 here, the greet-message will be deleted after 10 seconds. To
-                    reset specific options you can do: erio set (your option) reset example: erio set prefix reset</td>
-            </tr>
-
-            <tr>
-                <td>warnclear</td>
-                <td>[user] [thing]</a>
-                </td>
-                <td>Clear all or particular warnings. syntax: erio warnclear (user or user id) (warning number or "all")</td>
-            </tr>
-
-            <tr>
-                <td>prem</td>
-                <td>[value]</a>
-                </td>
-                <td>Here you can remove Personal prefixes, this is limited to donors. syntax: erio prem (your prefix in quotes)
-                    example: erio prem "pls "</td>
-            </tr>
-
-            <tr>
-                <td>configs</td>
-                <td>
-                    </a>
-                </td>
-                <td>Shows the server configuration</td>
-            </tr>
-
-            <tr>
-                <td>userinfo</td>
-                <td>[user]</a>
-                </td>
-                <td>Display information about a user, such as status and roles.</td>
-            </tr>
-
-            <tr>
-                <td>setavatar</td>
-                <td>[link]</a>
-                </td>
-                <td>Change the bot's avatar. Bot owner only.
-                </td>
-            </tr>
-
-            <tr>
-                <td>headache</td>
-                <td>[msg]</a>
-                </td>
-                <td>Generate a meme usage : erio headache
-                    <mention user>
-                </td>
-            </tr>
-
-            <tr>
-                <td>guilds</td>
-                <td>
-                    </a>
-                </td>
-                <td>Returns a list of all Guilds that the Bot can see.</td>
-            </tr>
-
-            <tr>
-                <td>spit</td>
-                <td>
-                    </a>
-                </td>
-                <td></td>
-            </tr>
-
-            <tr>
-                <td>sauce</td>
-                <td>[txt]</a>
-                </td>
-                <td>Find source of image using saucenao. Example: erio sauce https://images-na.ssl-images-amazon.com/images/I/71bSPK6-CJL._SL1500_.jpg</td>
-            </tr>
-
-            <tr>
-                <td>audit</td>
-                <td>
-                    </a>
-                </td>
-                <td>Audit logs on phone!!</td>
-            </tr>
-
-            <tr>
-                <td>setgame</td>
-                <td>[game_name]</a>
-                </td>
-                <td>Change the bot's playing status. Bot owner only.
-                </td>
-            </tr>
-
-            <tr>
-                <td>firstwords</td>
-                <td>[msg]</a>
-                </td>
-                <td>Generate a meme usage : erio firstwords message</td>
-            </tr>
-
-            <tr>
-                <td>mute</td>
-                <td>[user] [reason]</a>
-                </td>
-                <td>Adds the specified role to the specified user</td>
-            </tr>
-
-            <tr>
-                <td>cleanup</td>
-                <td>
-                    </a>
-                </td>
-                <td>Delete the bot's previous message(s). Bot owner only.
-                </td>
-            </tr>
-
-            <tr>
-                <td>purge</td>
-                <td>
-                    </a>
-                </td>
-                <td>Delete messages with a lot of options</td>
-            </tr>
-
-            <tr>
-                <td>ping</td>
-                <td>
-                    </a>
-                </td>
-                <td>Get the latency and heartbeat</td>
-            </tr>
-
-            <tr>
-                <td>unmute</td>
-                <td>[user] [reason]</a>
-                </td>
-                <td>Adds the specified role to the specified user</td>
-            </tr>
-
-            <tr>
-                <td>test</td>
-                <td>
-                    </a>
-                </td>
-                <td>Delete the bot's previous message(s). Bot owner only.
-                </td>
-            </tr>
-
-            <tr>
-                <td>youtube</td>
-                <td>[msg]</a>
-                </td>
-                <td>Search for videos on YouTube. Usage: erio yt (query)</td>
-            </tr>
-
-            <tr>
-                <td>addrole</td>
-                <td>[user] [name]</a>
-                </td>
-                <td>Adds the specified role to the specified user</td>
-            </tr>
-
-            <tr>
-                <td>anime</td>
-                <td>[query]</a>
-                </td>
-                <td>Look up anime</td>
-            </tr>
-
-            <tr>
-                <td>load</td>
-                <td>[extension_name]</a>
-                </td>
-                <td>Enable the use of an extension. Only the bot owner can use this.</td>
-            </tr>
-
-            <tr>
-                <td>manga</td>
-                <td>[query]</a>
-                </td>
-                <td>Look up manga</td>
-            </tr>
-
-            <tr>
-                <td>avatar</td>
-                <td>[user]</a>
-                </td>
-                <td>Display a user's avatar. Defaults to displaying the avatar of the user who invoked the command.</td>
-            </tr>
-
-            <tr>
-                <td>rload</td>
-                <td>[extension_name]</a>
-                </td>
-                <td>Reload an already-loaded extension. Only the bot owner can use this.</td>
-            </tr>
-
-            <tr>
-                <td>weather</td>
-                <td>[city]</a>
-                </td>
-                <td>Get weather from http://wttr.in/</td>
-            </tr>
-
-            <tr>
-                <td>guildicon</td>
-                <td>
-                    </a>
-                </td>
-                <td>Display the icon of the current guild.</td>
-            </tr>
-
-            <tr>
-                <td>lookup</td>
-                <td>[thing]</a>
-                </td>
-                <td>None</td>
-            </tr>
-
-            <tr>
-                <td>removerole</td>
-                <td>[user] [name]</a>
-                </td>
-                <td>Removes the specified role from the specified user</td>
-            </tr>
-
-            <tr>
-                <td>calvinandhobbes</td>
-                <td>[year] [month] [day]</a>
-                </td>
-                <td>Module for Calvin and Hobbes Comics usage: erio cnh (to get random comic) erio cnh [year] [month] [day] (for
-                    specific day)</td>
-            </tr>
-
-            <tr>
-                <td>reason</td>
-                <td>[caseid] [reason]</a>
-                </td>
-                <td>Set a reason for a modlog entry syntax: erio reason (caseid) (reason)</td>
-            </tr>
-
-            <tr>
-                <td>moon</td>
-                <td>
-                    </a>
-                </td>
-                <td>Get Moon phase info from http://wttr.in/</td>
-            </tr>
-
-            <tr>
-                <td>g</td>
-                <td>[query]</a>
-                </td>
-                <td>Google for whatever you like.</td>
-            </tr>
-
-            <tr>
-                <td>uload</td>
-                <td>[extension_name]</a>
-                </td>
-                <td>Disable the use of an extension. Only the bot owner can use this.</td>
-            </tr>
-
-            <tr>
-                <td>uptime</td>
-                <td>
-                    </a>
-                </td>
-                <td>Uptime command</td>
-            </tr>
-
-            <tr>
-                <td>createrole</td>
-                <td>[name]</a>
-                </td>
-                <td>Creates a role with the specified name</td>
-            </tr>
-
-            <tr>
-                <td>soundboard</td>
-                <td>[page]</a>
-                </td>
-                <td>list the soundboard</td>
-            </tr>
-
-            <tr>
-                <td>play</td>
-                <td>[page]</a>
-                </td>
-                <td>Starts the soundboard!</td>
-            </tr>
-
-            <tr>
-                <td>dipshit</td>
-                <td>[msg]</a>
-                </td>
-                <td>Generate a meme usage : erio dipshit
-                    <mention user>
-                </td>
-            </tr>
-
-            <tr>
-                <td>kick</td>
-                <td>[user] [reason]</a>
-                </td>
-                <td>Kicks a user (if you have the permission).</td>
-            </tr>
-
-            <tr>
-                <td>pset</td>
-                <td>[value]</a>
-                </td>
-                <td>Here you can set Personal prefixes, this is limited to donors. syntax: erio pset (your prefix in quotes)
-                    example: erio pset "pls "</td>
-            </tr>
-
-            <tr>
-                <td>stop</td>
-                <td>
-                    </a>
-                </td>
-                <td>Stops Talking to me.</td>
-            </tr>
-
-            <tr>
-                <td>botinfo</td>
-                <td>
-                    </a>
-                </td>
-                <td>Information regarding the bot</td>
-            </tr>
-            </tbody>
+        <tr>
+            <td width="5%"></td>
+            <td>editrole</td>
+            <td>[type] [value] [name]</a>
+            </td>
+            <td>Edits a role with the specified name</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>ping</td>
+            <td>
+                </a>
+            </td>
+            <td>Get the latency and heartbeat</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>stop</td>
+            <td>
+                </a>
+            </td>
+            <td>Stops Talking to me.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>vchannelinfo</td>
+            <td>[channel]</a>
+            </td>
+            <td>Display information about a voice channel.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>uptime</td>
+            <td>
+                </a>
+            </td>
+            <td>Uptime command</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>ban</td>
+            <td>[user] [reason]</a>
+            </td>
+            <td>Bans a user (if you have the permission).</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>set</td>
+            <td>[thing] [value]</a>
+            </td>
+            <td>Here you can set join messages, leave messages, join role and join/leave message channel. * thing: it can be
+                `greet-message`, `leave-message`, `join-role`, `join-leave-channel`, `modlog-channel`, `prefix`, `deletelog-channel`,
+                `greet-timer`, `mute-role`. * value: for the greet / leave messages the value will be the message example:
+                Hello there! %user%. Welcome to %guild% here `%user%` and `%guild%` are the new user mention and name of
+                the guild respectively. for join role, just type in the exact role name (role names are case sensitive),
+                same goes for the mute role and join-leave-channel. you can set greet-message/leave-message auto delete timer
+                like this: //set greet-timer 10 here, the greet-message will be deleted after 10 seconds. To reset specific
+                options you can do: //set (your option) reset example: //set prefix reset</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>rload</td>
+            <td>[extension_name]</a>
+            </td>
+            <td>Reload an already-loaded extension. Only the bot owner can use this.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>uload</td>
+            <td>[extension_name]</a>
+            </td>
+            <td>Disable the use of an extension. Only the bot owner can use this.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>cleanup</td>
+            <td>
+                </a>
+            </td>
+            <td>Delete the bot's previous message(s). Bot owner only.
+            </td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>userinfo</td>
+            <td>[user]</a>
+            </td>
+            <td>Display information about a user, such as status and roles.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>configs</td>
+            <td>
+                </a>
+            </td>
+            <td>Shows the server configuration</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>renamerole</td>
+            <td>[name] [newname]</a>
+            </td>
+            <td>Renames a role with the specified name, be sure to put double quotes (") around the name and the new name</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>firstwords</td>
+            <td>[msg]</a>
+            </td>
+            <td>Generate a meme usage : //firstwords message</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>halt</td>
+            <td>
+                </a>
+            </td>
+            <td>Halt the bot. Bot owner only.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>avatar</td>
+            <td>[user]</a>
+            </td>
+            <td>Display a user's avatar. Defaults to displaying the avatar of the user who invoked the command.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>restart</td>
+            <td>
+                </a>
+            </td>
+            <td>Restart the bot. Bot owner only.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>reason</td>
+            <td>[caseid] [reason]</a>
+            </td>
+            <td>Set a reason for a modlog entry syntax: //reason (caseid) (reason)</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>hackban</td>
+            <td>[user_id] [reason]</a>
+            </td>
+            <td>Bans a user outside of the server.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>removereactions</td>
+            <td>[id]</a>
+            </td>
+            <td>Clear reactions from a message</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>guildicon</td>
+            <td>
+                </a>
+            </td>
+            <td>Display the icon of the current guild.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>radio</td>
+            <td>
+                </a>
+            </td>
+            <td>None</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>warn</td>
+            <td>[user] [reason]</a>
+            </td>
+            <td>Warn the user syntax: //warn (user or user id)</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>softban</td>
+            <td>[user] [reason]</a>
+            </td>
+            <td>Softbans a user (if you have the permission).</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>warnlog</td>
+            <td>[user]</a>
+            </td>
+            <td>Get the warnings for a user syntax: //warnlog (user or userid)</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>sauce</td>
+            <td>[txt]</a>
+            </td>
+            <td>Find source of image using saucenao. Example: //sauce https://images-na.ssl-images-amazon.com/images/I/71bSPK6-CJL._SL1500_.jpg</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>banlist</td>
+            <td>
+                </a>
+            </td>
+            <td>Displays the server's banlist</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>g</td>
+            <td>[query]</a>
+            </td>
+            <td>Google for whatever you like.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>test</td>
+            <td>
+                </a>
+            </td>
+            <td>Delete the bot's previous message(s). Bot owner only.
+            </td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>pingmods</td>
+            <td>[reason]</a>
+            </td>
+            <td>Ping an online staff member</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>warnclear</td>
+            <td>[user] [thing]</a>
+            </td>
+            <td>Clear all or particular warnings. syntax: //warnclear (user or user id) (warning number or "all")</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>calvinandhobbes</td>
+            <td>[year] [month] [day]</a>
+            </td>
+            <td>Module for Calvin and Hobbes Comics usage: //cnh (to get random comic) //cnh [year] [month] [day] (for specific
+                day)</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>audit</td>
+            <td>
+                </a>
+            </td>
+            <td>Audit logs on phone!!</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>anime</td>
+            <td>[query]</a>
+            </td>
+            <td>Look up anime</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>prem</td>
+            <td>[value]</a>
+            </td>
+            <td>Here you can remove Personal prefixes, this is limited to donors. syntax: //prem (your prefix in quotes) example:
+                //prem "pls "</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>guilds</td>
+            <td>
+                </a>
+            </td>
+            <td>Returns a list of all Guilds that the Bot can see.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>pset</td>
+            <td>[value]</a>
+            </td>
+            <td>Here you can set Personal prefixes, this is limited to donors. syntax: //pset (your prefix in quotes) example:
+                //pset "pls "</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>gc</td>
+            <td>[year] [month] [day]</a>
+            </td>
+            <td>Module for Garfield Comics usage: //garfield (to get random comic) //garfield [year] [month] [day] (for specific
+                day)</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>spit</td>
+            <td>
+                </a>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>help</td>
+            <td>[cmds]</a>
+            </td>
+            <td>help command for the bot</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>mute</td>
+            <td>[user] [reason]</a>
+            </td>
+            <td>Adds the specified role to the specified user</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>weather</td>
+            <td>[city]</a>
+            </td>
+            <td>Get weather from http://wttr.in/</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>youtube</td>
+            <td>[msg]</a>
+            </td>
+            <td>Search for videos on YouTube. Usage: //yt (query)</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>old_help</td>
+            <td>[commands]</a>
+            </td>
+            <td>Shows this message.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>purge</td>
+            <td>
+                </a>
+            </td>
+            <td>Delete messages with a lot of options</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>manga</td>
+            <td>[query]</a>
+            </td>
+            <td>Look up manga</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>unmute</td>
+            <td>[user] [reason]</a>
+            </td>
+            <td>Adds the specified role to the specified user</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>dipshit</td>
+            <td>[msg]</a>
+            </td>
+            <td>Generate a meme usage : //dipshit
+                <mention user>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>moon</td>
+            <td>
+                </a>
+            </td>
+            <td>Get Moon phase info from http://wttr.in/</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>tp</td>
+            <td>[mem]</a>
+            </td>
+            <td>Gonna make Kotoha love me</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>plist</td>
+            <td>
+                </a>
+            </td>
+            <td>List all the personal prefixes syntax: //plsit </td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>invite</td>
+            <td>
+                </a>
+            </td>
+            <td>Generate an invite link for this bot.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>addd</td>
+            <td>[user]</a>
+            </td>
+            <td>Dank memes</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>urbandictionary</td>
+            <td>[msg]</a>
+            </td>
+            <td>Pull data from Urban Dictionary. Use ema help ud for more information. Usage: //ud
+                <term> - Search for a term on Urban Dictionary. You can pick a specific result with //
+                    <term> |
+                        <result>. If no result is specified, the first result will be used.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>owner</td>
+            <td>[action] [user]</a>
+            </td>
+            <td>Add an Owner required args are {action} which includes `add`, `remove`, `list` {user} only required for `add`
+                and `remove`.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>eval</td>
+            <td>[code]</a>
+            </td>
+            <td>Evaluates Python code</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>rmd</td>
+            <td>[user]</a>
+            </td>
+            <td>Dank memes</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>system</td>
+            <td>[command]</a>
+            </td>
+            <td>Run system commands.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>addrole</td>
+            <td>[user] [name]</a>
+            </td>
+            <td>Adds the specified role to the specified user</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>botinfo</td>
+            <td>
+                </a>
+            </td>
+            <td>Information regarding the bot</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>lookup</td>
+            <td>[thing]</a>
+            </td>
+            <td>None</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>rename</td>
+            <td>[username]</a>
+            </td>
+            <td>Change the bot's username. Bot owner only.
+            </td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>headache</td>
+            <td>[msg]</a>
+            </td>
+            <td>Generate a meme usage : //headache
+                <mention user>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>nick</td>
+            <td>[nickname]</a>
+            </td>
+            <td>Change the bot's nickname. Bot owner only.
+            </td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>removerole</td>
+            <td>[user] [name]</a>
+            </td>
+            <td>Removes the specified role from the specified user</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>jisho</td>
+            <td>[query]</a>
+            </td>
+            <td>Translate a word into Japanese. Example usage: //jisho kawaii</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>setavatar</td>
+            <td>[link]</a>
+            </td>
+            <td>Change the bot's avatar. Bot owner only.
+            </td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>soundboard</td>
+            <td>[page]</a>
+            </td>
+            <td>list the soundboard</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>createrole</td>
+            <td>[name]</a>
+            </td>
+            <td>Creates a role with the specified name</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>translate</td>
+            <td>[lang_to_trans] [msg]</a>
+            </td>
+            <td>Translates words from one language to another. Do `tux help`translate for more information. Usage: //translate
+                <language you wanna translate>`
+                    <words>` - Translate words from one language to another. Full language names must be used. The original language
+                        will be assumed automatically.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>play</td>
+            <td>[page]</a>
+            </td>
+            <td>Starts the soundboard!</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>setgame</td>
+            <td>[game_name]</a>
+            </td>
+            <td>Change the bot's playing status. Bot owner only.
+            </td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>kpop</td>
+            <td>
+                </a>
+            </td>
+            <td>None</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>load</td>
+            <td>[extension_name]</a>
+            </td>
+            <td>Enable the use of an extension. Only the bot owner can use this.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>deleterole</td>
+            <td>[name]</a>
+            </td>
+            <td>Deletes the role with the specified name</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>kick</td>
+            <td>[user] [reason]</a>
+            </td>
+            <td>Kicks a user (if you have the permission).</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>guildinfo</td>
+            <td>
+                </a>
+            </td>
+            <td>Display information about the current guild, such as owner, region, emojis, and roles.</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>creds</td>
+            <td>
+                </a>
+            </td>
+            <td>None</td>
+        </tr>
+
+        <tr>
+            <td width="5%"></td>
+            <td>channelinfo</td>
+            <td>[channel]</a>
+            </td>
+            <td>Display information about a text channel.</td>
+        </tr>
+
+        </tbody>
     </table>
 
 
